@@ -4,9 +4,11 @@ img {
   max-width: 100%;
   vertical-align: middle;
   border: 0;
+  -ms-interpolation-mode: bicubic;
 }
 
 .adjust-bar {
+  -webkit-appearance: none;
   appearance: none;
   outline: none;
   border-radius: 30px;
@@ -19,6 +21,7 @@ img {
   position: relative;
 }
 .adjust-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
   appearance: none;
   cursor: pointer;
   width: 60px;
@@ -74,14 +77,14 @@ img {
   left: 14px;
   width: 30px;
   height: 30px;
-  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+ICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPiAgICA8cGF0aCBkPSJNLTExNDAtMjUwSDIyNnY3NjhoLTEzNjZ6Ii8+ICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiLz4gICAgPGcgc3Ryb2tlPSIjZmZmIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEgMSkiPiAgICAgIDxjaXJjbGUgY3g9IjExIiBjeT0iMTEiIHI9IjUiLz4gICAgICA8cGF0aCBkPSJNMTEgMHYybTAgMTh2Mk0zLjIyIDMuMjJsMS40MiAxLjQybTEyLjcyIDEyLjcybDEuNDIgMS40Mk0wIDExaDJtMTggMGgyTTMuMjIgMTguNzhsMS40Mi0xLjQyTTE3LjM2IDQuNjRsMS40Mi0xLjQyIi8+ICAgIDwvZz4gIDwvZz48L3N2Zz4=) center center/contain no-repeat;
+  background: url("assets/adjust-bar_light_from.svg") center center/contain no-repeat;
 }
 .adjust-bar__container_theme_light::after {
   top: 13px;
   right: 13px;
   width: 34px;
   height: 34px;
-  background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+ICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPiAgICA8cGF0aCBmaWxsPSJub25lIiBkPSJNLTExNDAtMjUwSDIyNnY3NjhoLTEzNjZ6Ii8+ICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiLz4gICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMSAxKSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiPiAgICAgIDxjaXJjbGUgc3Ryb2tlPSIjZmZmIiBjeD0iMTEiIGN5PSIxMSIgcj0iNSIvPiAgICAgIDxwYXRoIGQ9Ik0xMSAwdjJNMTEgMjB2Mk0zLjIyIDMuMjJsMS40MiAxLjQyTTE3LjM2IDE3LjM2bDEuNDIgMS40Mk0wIDExaDJNMjAgMTFoMk0zLjIyIDE4Ljc4bDEuNDItMS40Mk0xNy4zNiA0LjY0bDEuNDItMS40MiIgc3Ryb2tlPSIjZmZmIi8+ICAgIDwvZz4gIDwvZz48L3N2Zz4=) center center/contain no-repeat;
+  background: url("assets/adjust-bar_light_to.svg") center center/contain no-repeat;
 }
 .adjust-bar_theme_temp {
   background-image: linear-gradient(90deg, #068fff 0%, #ffd800 50%, #f76b1c 100%);
@@ -335,7 +338,7 @@ img {
   padding: 0 20px 0 25px;
   display: flex;
   justify-content: space-between;
-  background: url("assets/sh-min 2.png") center center/cover no-repeat;
+  background: url("assets/sh.webp") center center/cover no-repeat;
 }
 .main__greeting {
   margin-top: 6px;
