@@ -1,7 +1,7 @@
 @import url("./fonts/pt_sans.css");
 
 img {
-  width: auto\9;
+  width: auto;
   height: auto;
   max-width: 100%;
   vertical-align: middle;
@@ -340,7 +340,7 @@ img {
   padding: 0 20px 0 25px;
   display: flex;
   justify-content: space-between;
-  background: url("assets/sh-min.png") center center/cover no-repeat;
+  background: url("assets/sh-min 2.png") center center/cover no-repeat;
 }
 .main__greeting {
   margin-top: 6px;
